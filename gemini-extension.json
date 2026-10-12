@@ -1,0 +1,19 @@
+{
+  "name": "invokely-statistics",
+  "version": "1.0.0",
+  "description": "Query official statistics through Invokely's hosted MCP service.",
+  "mcpServers": {
+    "invokely": {
+      "url": "https://invokely.ai/mcp/trial",
+      "type": "http",
+      "includeTools": [
+        "search_indicators",
+        "resolve_place",
+        "get_value",
+        "get_series",
+        "compare",
+        "rank_places"
+      ]
+    }
+  }
+}
